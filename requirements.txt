@@ -1,37 +1,30 @@
 # =========================
-# CORE PYTHON PACKAGES
-# =========================
-numpy==1.26.4
-pillow==10.4.0
-scipy==1.11.4
-scikit-learn==1.4.0
-loguru==0.7.2
-python-dotenv==1.0.1
-requests==2.31.0
-typing-extensions==4.10.0
-click==8.1.7
-
-# =========================
-# FASTAPI / WEB
-# =========================
-fastapi==0.110.0
-starlette==0.28.0
-uvicorn[standard]==0.27.1
-python-multipart==0.0.9
-
-# =========================
-# MONGODB
-# =========================
-motor==3.3.2
-pymongo==4.6.2
-
-# =========================
-# OPENCV (CPU only)
-# =========================
-opencv-python-headless==4.9.0.80
-
-# =========================
-# ML / AI (Standard Names)
+# ML / AI CORE (Locked)
 # =========================
 torch==2.4.0
 torchvision==0.19.0
+numpy>=1.24.0,<2.0.0
+# =========================
+# CORE UTILS (Flexible)
+# =========================
+pillow
+scipy
+scikit-learn
+loguru
+python-dotenv
+requests
+typing-extensions
+click
+# =========================
+# FASTAPI / WEB (Flexible)
+# =========================
+fastapi
+starlette
+uvicorn[standard]
+python-multipart
+# =========================
+# MONGODB & OPENCV
+# =========================
+motor
+pymongo
+opencv-python-headless
